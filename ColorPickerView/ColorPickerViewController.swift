@@ -34,12 +34,19 @@ class ColorPickerViewController: UIViewController {
         pushTestController()
 }
     
-    private func  pushTestController() {
-        let storyboard = UIStoryboard(name: "test", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "newFile") as UIViewController
-        //   let vc = SecondViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
+//    private func  pushTestController() {
+//        let storyboard = UIStoryboard(name: "test", bundle: nil)
+//        let vc = storyboard.instantiateViewController(withIdentifier: "newFile") as UIViewController
+//        //   let vc = SecondViewController()
+//        self.navigationController?.pushViewController(vc, animated: true)
+//    }
+  
+        private func  pushTestController() {
+            let storyboard = UIStoryboard(name: "web", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "trialFile") as UIViewController
+            //   let vc = SecondViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     
 //    private func pushwebViewController() {
 //        print( mainBundle)

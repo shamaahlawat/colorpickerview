@@ -14,6 +14,8 @@
 		1E86C44E114A91145FAE5171B9A4C3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		26490D66752043C5C80AA2650D938802 /* Pods-ColorPickerViewUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 585DE932485855A42DC517829743B188 /* Pods-ColorPickerViewUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26FB936221E646E100626415 /* newFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB936121E646E100626415 /* newFile.swift */; };
+		26FDF0CD21E74D42008E8BCD /* trialFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDF0CC21E74D42008E8BCD /* trialFile.swift */; };
+		26FDF0CF21E74D72008E8BCD /* web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FDF0CE21E74D72008E8BCD /* web.storyboard */; };
 		2D3CD052D66C8903CC5D917EBB32F7C0 /* index.html in Sources */ = {isa = PBXBuildFile; fileRef = 3D60C847C66694DA1891E78B8135C370 /* index.html */; };
 		364A058AEB512F31BDCC71496BA3BF27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		45E42F202F82D0536647A258F6F6777A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D07C6649C70CDBA5EDB36C63C0337E20 /* Info.plist */; };
@@ -71,6 +73,8 @@
 		1E7C766BEEE059D244D759917B76F37C /* Pods-ColorPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerView-Info.plist"; sourceTree = "<group>"; };
 		216C898835DF28CE9C1B7D96794C1652 /* Pods-ColorPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerView.release.xcconfig"; sourceTree = "<group>"; };
 		26FB936121E646E100626415 /* newFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newFile.swift; sourceTree = "<group>"; };
+		26FDF0CC21E74D42008E8BCD /* trialFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trialFile.swift; sourceTree = "<group>"; };
+		26FDF0CE21E74D72008E8BCD /* web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = web.storyboard; sourceTree = "<group>"; };
 		2D7355EE043AF5CC3AE528603440C051 /* Pods-ColorPickerViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F9ADEA8E4A83CD74967AC6340348E09 /* Ori-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ori-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
 		30C3AB7D8D6CB9209DFC74D4E4957EDD /* instantiateViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = instantiateViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +204,8 @@
 				40E11D06A587DB8462D18F4058ED03EB /* instantiateViewController.h */,
 				87CE13B323E50DE2395EA55195C69D5F /* test.storyboard */,
 				26FB936121E646E100626415 /* newFile.swift */,
+				26FDF0CC21E74D42008E8BCD /* trialFile.swift */,
+				26FDF0CE21E74D72008E8BCD /* web.storyboard */,
 				0DC537AB6E44B79F63D5FF7A0EF138BD /* Support Files */,
 			);
 			path = instantiateViewController;
@@ -535,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FDF0CF21E74D72008E8BCD /* web.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +591,7 @@
 			files = (
 				F8A569D9296F9ED7391A67DB0B917725 /* index.html in Sources */,
 				E0049C4B731597070F482C0F187AEC6C /* Info.plist in Sources */,
+				26FDF0CD21E74D42008E8BCD /* trialFile.swift in Sources */,
 				1D8EF0E98881CFBF211DD370FBA7BE64 /* instantiateViewController-dummy.m in Sources */,
 				0A43160B49E6686D0A36128E0A610234 /* test.storyboard in Sources */,
 				26FB936221E646E100626415 /* newFile.swift in Sources */,

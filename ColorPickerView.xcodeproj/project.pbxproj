@@ -17,6 +17,7 @@
 		2637F55F21D4E68B00E36D43 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637F55E21D4E68B00E36D43 /* ColorPickerViewController.swift */; };
 		2637F56121D4F1F500E36D43 /* secondview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2637F56021D4F1F500E36D43 /* secondview.storyboard */; };
 		2637F56321D4F24400E36D43 /* secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637F56221D4F24400E36D43 /* secondview.swift */; };
+		26FDF0D321E752D4008E8BCD /* web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FDF0D221E752D3008E8BCD /* web.storyboard */; };
 		26FEEE7421DDFFD6004F9D04 /* loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FEEE7321DDFFD6004F9D04 /* loading.storyboard */; };
 		26FEEE8921DE2E13004F9D04 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 26FEEE8821DE2E13004F9D04 /* index.html */; };
 		26FEEE8A21DE309A004F9D04 /* ColorPickerView-bridging.h in Sources */ = {isa = PBXBuildFile; fileRef = 2637F5DC21D6220300E36D43 /* ColorPickerView-bridging.h */; };
@@ -64,6 +65,7 @@
 		2637F56221D4F24400E36D43 /* secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondview.swift; sourceTree = "<group>"; };
 		2637F5DC21D6220300E36D43 /* ColorPickerView-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorPickerView-bridging.h"; sourceTree = "<group>"; };
 		2637F5DD21D6236900E36D43 /* instantiateViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = instantiateViewController.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ColorPickerView-emjyazfjnvvxjgdqroffgahongaj/Build/Products/Debug-iphonesimulator/instantiateViewController/instantiateViewController.framework"; sourceTree = "<group>"; };
+		26FDF0D221E752D3008E8BCD /* web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = web.storyboard; path = Pods/instantiateViewController/web.storyboard; sourceTree = "<group>"; };
 		26FEEE7321DDFFD6004F9D04 /* loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loading.storyboard; sourceTree = "<group>"; };
 		26FEEE8821DE2E13004F9D04 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		26FEEEEC21E46C79004F9D04 /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = test.storyboard; path = Pods/instantiateViewController/instantiateViewController/test.storyboard; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		2637F52421D4E66400E36D43 = {
 			isa = PBXGroup;
 			children = (
+				26FDF0D221E752D3008E8BCD /* web.storyboard */,
 				26FEEEEC21E46C79004F9D04 /* test.storyboard */,
 				26FEEE8821DE2E13004F9D04 /* index.html */,
 				26FEEE7321DDFFD6004F9D04 /* loading.storyboard */,
@@ -296,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FDF0D321E752D4008E8BCD /* web.storyboard in Resources */,
 				26FEEEED21E46C79004F9D04 /* test.storyboard in Resources */,
 				26FEEE8921DE2E13004F9D04 /* index.html in Resources */,
 				26FEEE7421DDFFD6004F9D04 /* loading.storyboard in Resources */,
