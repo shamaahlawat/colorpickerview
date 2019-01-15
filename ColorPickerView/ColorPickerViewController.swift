@@ -3,12 +3,9 @@ import UIKit
 import instantiateViewController
 
 let mainBundle = Bundle.main
-
 //print("identifier: \(String(describing: mainBundle.bundleIdentifier))")
 
 class ColorPickerViewController: UIViewController {
-
-//  NSBundle *amazingBundle = [NSBundle bundleForClass:[self class]];
     
     @IBAction func didTapRedButton(_ sender: Any) {
         pushViewController(title: "Red", color: UIColor.red)
@@ -34,6 +31,15 @@ class ColorPickerViewController: UIViewController {
         pushTestController()
 }
     
+    private func  pushTestController() {
+        let storyboard = UIStoryboard(name: "ChatbotWebview", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ChatbotViewController") as UIViewController
+        //   let vc = SecondViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+
+    
 //    private func  pushTestController() {
 //        let storyboard = UIStoryboard(name: "test", bundle: nil)
 //        let vc = storyboard.instantiateViewController(withIdentifier: "newFile") as UIViewController
@@ -41,12 +47,6 @@ class ColorPickerViewController: UIViewController {
 //        self.navigationController?.pushViewController(vc, animated: true)
 //    }
   
-        private func  pushTestController() {
-            let storyboard = UIStoryboard(name: "web", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "trialFile") as UIViewController
-            //   let vc = SecondViewController()
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
     
 //    private func pushwebViewController() {
 //        print( mainBundle)

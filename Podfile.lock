@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   instantiateViewController:
-    :commit: f8827bdcd85e603c574b708e780d9e4b403ab7b9
+    :commit: 98dc36868d56f63690b0eb39d8c894c45e711625
     :git: https://github.com/shamaahlawat/instantiateViewController.git
   Ori-ios-sdk:
     :commit: 8071097dd9421277791345ebf190aa6fb3c2a6d3
