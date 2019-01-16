@@ -20,7 +20,7 @@ class ColorPickerViewController: UIViewController {
     }
     
     @IBAction func didTapFrameworkStoryboardButton(_ sender: UIButton) {
-//         pushloadingViewController()
+//      pushloadingViewController()
     }
     
     @IBAction func didTaploadWebviewButtonPressed(_ sender: UIButton) {
@@ -34,7 +34,6 @@ class ColorPickerViewController: UIViewController {
     private func  pushTestController() {
         let storyboard = UIStoryboard(name: "ChatbotWebview", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ChatbotViewController") as UIViewController
-        //   let vc = SecondViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

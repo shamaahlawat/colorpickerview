@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -71,13 +71,13 @@
 		0793312906E6952CABFDC87639A26456 /* sourcefile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = sourcefile.swift; path = "Ori-ios-sdk/sourcefile.swift"; sourceTree = "<group>"; };
 		0F4DDA4A44B1E3785060BE8CCEDFD06C /* instantiateViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "instantiateViewController-umbrella.h"; sourceTree = "<group>"; };
 		116B38452AD30A8B40037E6867CD1D09 /* instantiateViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = instantiateViewController.modulemap; sourceTree = "<group>"; };
-		126580D9EA514081AD8E0FA98E2A8CDE /* Pods_ColorPickerViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorPickerViewTests.framework; path = "Pods-ColorPickerViewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126580D9EA514081AD8E0FA98E2A8CDE /* Pods_ColorPickerViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C886595DB238FD73B33014F1F639C2 /* instantiateViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = instantiateViewController.h; path = instantiateViewController/instantiateViewController.h; sourceTree = "<group>"; };
 		1E7C766BEEE059D244D759917B76F37C /* Pods-ColorPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerView-Info.plist"; sourceTree = "<group>"; };
 		216C898835DF28CE9C1B7D96794C1652 /* Pods-ColorPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerView.release.xcconfig"; sourceTree = "<group>"; };
 		29D615E7ABEEFA07AC29AAC9468857CA /* Ori-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ori-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
 		2D7355EE043AF5CC3AE528603440C051 /* Pods-ColorPickerViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		30C3AB7D8D6CB9209DFC74D4E4957EDD /* instantiateViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = instantiateViewController.framework; path = instantiateViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C3AB7D8D6CB9209DFC74D4E4957EDD /* instantiateViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = instantiateViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3405467DEC67CFD5C4DDE0C9B0FFE233 /* Pods-ColorPickerViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		34AFC410524CC1C200FF17816AD550C4 /* Pods-ColorPickerViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorPickerViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38B223103285E11DE8CC85F70CCB20BC /* Pods-ColorPickerViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorPickerViewTests-dummy.m"; sourceTree = "<group>"; };
@@ -92,10 +92,10 @@
 		587DFAC390585D4AA48C74C8AD0C99EF /* Pods-ColorPickerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		58A6EF309342ECCC58082BF331489EF1 /* Pods-ColorPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerView.debug.xcconfig"; sourceTree = "<group>"; };
 		5B52B16B3EBC7CDB03A1198A1A4A5D4D /* ChatbotViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatbotViewController.swift; path = instantiateViewController/ChatbotViewController.swift; sourceTree = "<group>"; };
-		5B6E25A1F54B79243DE994E36C8B0BF2 /* Ori_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ori_ios_sdk.framework; path = "Ori-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6E25A1F54B79243DE994E36C8B0BF2 /* Ori_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ori_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D52A33AB72C3832AA8591D6F9A4F534 /* Ori-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ori-ios-sdk-Info.plist"; sourceTree = "<group>"; };
-		5E8162CE0F8CE436B09F3524736E8B2F /* Pods_ColorPickerViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorPickerViewUITests.framework; path = "Pods-ColorPickerViewUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6158AA17622D3EAA9E6495DF057E53D8 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = "Ori-ios-sdk/index.html"; sourceTree = "<group>"; };
+		5E8162CE0F8CE436B09F3524736E8B2F /* Pods_ColorPickerViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6158AA17622D3EAA9E6495DF057E53D8 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = "Ori-ios-sdk/index.html"; sourceTree = "<group>"; };
 		615DDBF9564A3A93D2F3E8CE9FF0CA16 /* Pods-ColorPickerViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorPickerViewUITests-dummy.m"; sourceTree = "<group>"; };
 		655BD99EABFED6DAF3A19ED65A365D78 /* instantiateViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "instantiateViewController-prefix.pch"; sourceTree = "<group>"; };
 		657961520885CF808403C349BCA3575F /* main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = main.storyboard; path = "Ori-ios-sdk/main.storyboard"; sourceTree = "<group>"; };
@@ -110,14 +110,14 @@
 		9DE7C75BFD02E8DA044ADA928C67A450 /* ChatbotWebview.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ChatbotWebview.storyboard; path = instantiateViewController/ChatbotWebview.storyboard; sourceTree = "<group>"; };
 		AF5FD91DC96032AAB0F20C85D31E2222 /* Pods-ColorPickerViewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorPickerViewTests.modulemap"; sourceTree = "<group>"; };
 		B2E5E6A7998E0ADA8ACC2A45D90D684C /* Pods-ColorPickerViewTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerViewTests-Info.plist"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C076CDEBA5697ED6F689DFFADAE68A9F /* Ori-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ori-ios-sdk-dummy.m"; sourceTree = "<group>"; };
-		C139CE952E4DAFA3E993238D2EEFF020 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = instantiateViewController/index.html; sourceTree = "<group>"; };
+		C139CE952E4DAFA3E993238D2EEFF020 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = instantiateViewController/index.html; sourceTree = "<group>"; };
 		D37DCD324418CC54262A187B7E0AFBBE /* instantiateViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "instantiateViewController-Info.plist"; sourceTree = "<group>"; };
 		D53CB76F7FEC6FC560F54D9BF3BC35E5 /* Ori-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Ori-ios-sdk.modulemap"; sourceTree = "<group>"; };
 		D5C056A0911C1D36F834998632C00130 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = instantiateViewController/Info.plist; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DFF267000BB25A6F2C5F0ABF042060E5 /* Pods_ColorPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorPickerView.framework; path = "Pods-ColorPickerView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF267000BB25A6F2C5F0ABF042060E5 /* Pods_ColorPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C1FE74DE25D3792978540970CF9D1B /* Pods-ColorPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorPickerView-umbrella.h"; sourceTree = "<group>"; };
 		E2F594E6A0B78244797241A26AB95161 /* Ori-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ori-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
 		F28E81719F97C4E4EB9B954FD8838D00 /* Pods-ColorPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorPickerView.modulemap"; sourceTree = "<group>"; };
@@ -187,7 +187,6 @@
 				19C886595DB238FD73B33014F1F639C2 /* instantiateViewController.h */,
 				7C1A7D450BE3C5ADB5352156C5FD51A1 /* Support Files */,
 			);
-			name = instantiateViewController;
 			path = instantiateViewController;
 			sourceTree = "<group>";
 		};
@@ -220,7 +219,6 @@
 				F41FC8B00E3DA7740D4FA91084B4526F /* test.swift */,
 				F1274E206840E5E500CE4ECC3F2E612F /* Support Files */,
 			);
-			name = "Ori-ios-sdk";
 			path = "Ori-ios-sdk";
 			sourceTree = "<group>";
 		};
@@ -641,11 +639,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorPickerView/Pods-ColorPickerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorPickerView/Pods-ColorPickerView.modulemap";
 				OTHER_LDFLAGS = "";
@@ -745,11 +739,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorPickerViewUITests/Pods-ColorPickerViewUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorPickerViewUITests/Pods-ColorPickerViewUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -818,8 +808,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -844,11 +833,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorPickerView/Pods-ColorPickerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorPickerView/Pods-ColorPickerView.modulemap";
 				OTHER_LDFLAGS = "";
@@ -883,11 +868,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorPickerViewUITests/Pods-ColorPickerViewUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorPickerViewUITests/Pods-ColorPickerViewUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -923,11 +904,7 @@
 				INFOPLIST_FILE = "Target Support Files/Ori-ios-sdk/Ori-ios-sdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Ori-ios-sdk/Ori-ios-sdk.modulemap";
 				PRODUCT_MODULE_NAME = Ori_ios_sdk;
 				PRODUCT_NAME = Ori_ios_sdk;
@@ -961,11 +938,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorPickerViewTests/Pods-ColorPickerViewTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorPickerViewTests/Pods-ColorPickerViewTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1000,11 +973,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ColorPickerViewTests/Pods-ColorPickerViewTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ColorPickerViewTests/Pods-ColorPickerViewTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1040,11 +1009,7 @@
 				INFOPLIST_FILE = "Target Support Files/Ori-ios-sdk/Ori-ios-sdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Ori-ios-sdk/Ori-ios-sdk.modulemap";
 				PRODUCT_MODULE_NAME = Ori_ios_sdk;
 				PRODUCT_NAME = Ori_ios_sdk;
@@ -1077,11 +1042,7 @@
 				INFOPLIST_FILE = "Target Support Files/instantiateViewController/instantiateViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/instantiateViewController/instantiateViewController.modulemap";
 				PRODUCT_MODULE_NAME = instantiateViewController;
 				PRODUCT_NAME = instantiateViewController;
@@ -1114,11 +1075,7 @@
 				INFOPLIST_FILE = "Target Support Files/instantiateViewController/instantiateViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/instantiateViewController/instantiateViewController.modulemap";
 				PRODUCT_MODULE_NAME = instantiateViewController;
 				PRODUCT_NAME = instantiateViewController;
