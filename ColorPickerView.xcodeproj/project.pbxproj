@@ -18,6 +18,7 @@
 		2637F56121D4F1F500E36D43 /* secondview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2637F56021D4F1F500E36D43 /* secondview.storyboard */; };
 		2637F56321D4F24400E36D43 /* secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637F56221D4F24400E36D43 /* secondview.swift */; };
 		26FC76FE21EDF3DF00627DB5 /* ChatbotWebview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FC76FD21EDF3DF00627DB5 /* ChatbotWebview.storyboard */; };
+		26FC770221F0749600627DB5 /* javascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 26FC770121F0749600627DB5 /* javascript.js */; };
 		26FEEE7421DDFFD6004F9D04 /* loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FEEE7321DDFFD6004F9D04 /* loading.storyboard */; };
 		26FEEE8921DE2E13004F9D04 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 26FEEE8821DE2E13004F9D04 /* index.html */; };
 		26FEEE8A21DE309A004F9D04 /* ColorPickerView-bridging.h in Sources */ = {isa = PBXBuildFile; fileRef = 2637F5DC21D6220300E36D43 /* ColorPickerView-bridging.h */; };
@@ -65,6 +66,7 @@
 		2637F5DC21D6220300E36D43 /* ColorPickerView-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorPickerView-bridging.h"; sourceTree = "<group>"; };
 		2637F5DD21D6236900E36D43 /* instantiateViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = instantiateViewController.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ColorPickerView-emjyazfjnvvxjgdqroffgahongaj/Build/Products/Debug-iphonesimulator/instantiateViewController/instantiateViewController.framework"; sourceTree = "<group>"; };
 		26FC76FD21EDF3DF00627DB5 /* ChatbotWebview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ChatbotWebview.storyboard; path = Pods/instantiateViewController/instantiateViewController/ChatbotWebview.storyboard; sourceTree = "<group>"; };
+		26FC770121F0749600627DB5 /* javascript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = javascript.js; path = Pods/instantiateViewController/javascript.js; sourceTree = "<group>"; };
 		26FEEE7321DDFFD6004F9D04 /* loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loading.storyboard; sourceTree = "<group>"; };
 		26FEEE8821DE2E13004F9D04 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		5BFDF05CB6A305F4EDEAD2A0 /* Pods_ColorPickerViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickerViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 		2637F52421D4E66400E36D43 = {
 			isa = PBXGroup;
 			children = (
+				26FC770121F0749600627DB5 /* javascript.js */,
 				26FC76FD21EDF3DF00627DB5 /* ChatbotWebview.storyboard */,
 				26FEEE8821DE2E13004F9D04 /* index.html */,
 				26FEEE7321DDFFD6004F9D04 /* loading.storyboard */,
@@ -296,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FC770221F0749600627DB5 /* javascript.js in Resources */,
 				26FC76FE21EDF3DF00627DB5 /* ChatbotWebview.storyboard in Resources */,
 				26FEEE8921DE2E13004F9D04 /* index.html in Resources */,
 				26FEEE7421DDFFD6004F9D04 /* loading.storyboard in Resources */,

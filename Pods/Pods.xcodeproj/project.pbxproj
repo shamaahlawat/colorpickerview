@@ -11,6 +11,7 @@
 		19E204A2DD2CF4FE2586C218668C674C /* Ori-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F594E6A0B78244797241A26AB95161 /* Ori-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC814A4FB5EAF2AE5F155C066121C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		26490D66752043C5C80AA2650D938802 /* Pods-ColorPickerViewUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 585DE932485855A42DC517829743B188 /* Pods-ColorPickerViewUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FC770021F0656800627DB5 /* javascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 26FC76FF21F0656800627DB5 /* javascript.js */; };
 		2D3CD052D66C8903CC5D917EBB32F7C0 /* index.html in Sources */ = {isa = PBXBuildFile; fileRef = 6158AA17622D3EAA9E6495DF057E53D8 /* index.html */; };
 		33BFEBA58AB1EC081A376C0C9CABE70D /* instantiateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C886595DB238FD73B33014F1F639C2 /* instantiateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		364A058AEB512F31BDCC71496BA3BF27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -75,6 +76,7 @@
 		19C886595DB238FD73B33014F1F639C2 /* instantiateViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = instantiateViewController.h; path = instantiateViewController/instantiateViewController.h; sourceTree = "<group>"; };
 		1E7C766BEEE059D244D759917B76F37C /* Pods-ColorPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerView-Info.plist"; sourceTree = "<group>"; };
 		216C898835DF28CE9C1B7D96794C1652 /* Pods-ColorPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickerView.release.xcconfig"; sourceTree = "<group>"; };
+		26FC76FF21F0656800627DB5 /* javascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.js; sourceTree = "<group>"; };
 		29D615E7ABEEFA07AC29AAC9468857CA /* Ori-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ori-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
 		2D7355EE043AF5CC3AE528603440C051 /* Pods-ColorPickerViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickerViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30C3AB7D8D6CB9209DFC74D4E4957EDD /* instantiateViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = instantiateViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +182,7 @@
 		181EA6EF71A0D713CD297C52423C343E /* instantiateViewController */ = {
 			isa = PBXGroup;
 			children = (
+				26FC76FF21F0656800627DB5 /* javascript.js */,
 				5B52B16B3EBC7CDB03A1198A1A4A5D4D /* ChatbotViewController.swift */,
 				9DE7C75BFD02E8DA044ADA928C67A450 /* ChatbotWebview.storyboard */,
 				C139CE952E4DAFA3E993238D2EEFF020 /* index.html */,
@@ -521,6 +524,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FC770021F0656800627DB5 /* javascript.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
