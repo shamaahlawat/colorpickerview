@@ -9,8 +9,8 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
        ChatbotWebview.delegate = self //For mywebDidFinishLoad to be called
         print("In here")
-        Activity.isHidden = false
-        Activity.startAnimating()
+//        Activity.isHidden = true
+//        Activity.startAnimating()
         do
         {
             let testHTML = Bundle.main.path(forResource: "index", ofType: "html")
@@ -18,6 +18,16 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
             let baseUrl = NSURL(fileURLWithPath: testHTML!) //for load css file
             
             ChatbotWebview.loadHTMLString(contents as String, baseURL: baseUrl as URL)
+            
+//            let jsInterface = NSXPCInterface()
+//           ChatbotWebview.addJavascriptInterface(object: jsInterface, forKey: "Native")
+            
+            let htmlTitle = ChatbotWebview.stringByEvaluatingJavaScript(from: "document.title.innerHTML");
+           print(htmlTitle)
+//            if let returnedString = ChatbotWebview.stringByEvaluatingJavaScript(from: "") {
+//                print("the result is \(returnedString)")
+//            }
+            
         }
         catch
         {
@@ -25,18 +35,34 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         }
     }
     
-    func myWebDidStartLoad(ChatbotWebview : UIWebView) {
-        //UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+//    func webViewDidStartLoad(_webView : UIWebView) {
+//        //UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+//        print("when webview starts loading")
+//        Activity.startAnimating()
+//    }
+    
+//    func webViewDidFinishLoad(_webView : UIWebView) {
+//        //UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+//        print("when webview finish loading")
+//        Activity.stopAnimating()
+//        Activity.isHidden = true
+//    }
+    
+    func webViewDidStartLoad(_ webView: UIWebView) {
         print("when webview starts loading")
         Activity.startAnimating()
     }
     
-    func myWebDidFinishLoad(ChatbotWebview : UIWebView) {
-        //UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+    func webViewDidFinishLoad(_ webView: UIWebView) {
         print("when webview finish loading")
         Activity.stopAnimating()
-        Activity.isHidden = true
+        // Activity.isHidden = true
+
     }
+    
+//    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
+//        <#code#>
+//    }
 //
 //    func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebView.NavigationType) -> Bool {
 //
