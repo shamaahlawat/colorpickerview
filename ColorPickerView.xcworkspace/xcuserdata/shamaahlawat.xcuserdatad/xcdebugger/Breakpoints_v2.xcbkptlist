@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ColorPickerView/AppDelegate.swift"
-            timestampString = "569243244.6736701"
+            timestampString = "569845031.741559"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "10"
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/instantiateViewController/instantiateViewController/ChatbotViewController.swift"
-            timestampString = "569415969.303511"
+            timestampString = "569845031.7455291"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "webViewDidStartLoad(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,12 +234,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/instantiateViewController/instantiateViewController/ChatbotViewController.swift"
-            timestampString = "569415969.303666"
+            timestampString = "569845031.74632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "webView(_:didFailLoadWithError:)"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "webViewDidFinishLoad(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -25,6 +25,22 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         }
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super .viewWillDisappear(animated)
+            ChatbotWebview.stopLoading()
+            ChatbotWebview.removeFromSuperview()
+            ChatbotWebview = nil
+        
+            URLCache.shared.removeAllCachedResponses()
+            URLCache.shared.diskCapacity = 0
+            URLCache.shared.memoryCapacity = 0
+            if let cookies = HTTPCookieStorage.shared.cookies {
+                for cookie in cookies {
+                    HTTPCookieStorage.shared.deleteCookie(cookie)
+                }
+            }
+    }
+    
     func webViewDidStartLoad(_ webView: UIWebView) {
             print("when webview starts loading")
             Activity.startAnimating()
@@ -34,24 +50,19 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         print("when webview finish loading")
             Activity.stopAnimating()
             Activity.isHidden = true
-        let htmlTitle = ChatbotWebview.stringByEvaluatingJavaScript(from: "someFunction();");
-        //    let htmlTitle = ChatbotWebview.stringByEvaluatingJavaScript(from: "document.title.innerHTML");
+        let htmlTitle = ChatbotWebview.stringByEvaluatingJavaScript(from: "window.pageYOffset;");
+        print(htmlTitle)
+    
+          injectJavaScriptFunction()
+    }
+    
+    private func injectJavaScriptFunction() {
+        print("injecting javascript")
         
+        let obj = "{\"psid\": \"ori\"}"
         
-        //   if let returnedString = ChatbotWebview.stringByEvaluatingJavaScript(from: "") {
-        //     print("the result is \(returnedString)")
-        //  }
-        
-        
-        let filePath = Bundle.main.path(forResource: "javascript", ofType: "js")
-        do {
-            let jsContent = try String.init(contentsOfFile: filePath!, encoding: String.Encoding.utf8)
-//            print(jsContent)
-           ChatbotWebview.stringByEvaluatingJavaScript(from: jsContent)
-        }
-        catch let error as NSError{
-            print(error.debugDescription)
-        }
+        ChatbotWebview.stringByEvaluatingJavaScript(from: "window.androidObj.updateFromAndroid(\'android\',\'\');");
+        ChatbotWebview.stringByEvaluatingJavaScript(from :"window.androidObj.updateFromAndroid(\'psid\',\'"+obj+"\');");
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {

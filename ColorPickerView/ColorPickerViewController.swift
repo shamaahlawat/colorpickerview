@@ -7,6 +7,8 @@ let mainBundle = Bundle.main
 
 class ColorPickerViewController: UIViewController {
     
+    @IBOutlet weak var userTextField: UITextField!
+    
     @IBAction func didTapRedButton(_ sender: Any) {
         pushViewController(title: "Red", color: UIColor.red)
     }
@@ -32,6 +34,8 @@ class ColorPickerViewController: UIViewController {
 }
     
     private func  pushTestController() {
+        var vcnumber = userTextField.text
+        print("vc_number is",vcnumber)
         let storyboard = UIStoryboard(name: "ChatbotWebview", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ChatbotViewController") as UIViewController
         self.navigationController?.pushViewController(vc, animated: true)
