@@ -9,6 +9,7 @@ class ColorPickerViewController: UIViewController {
     
     @IBOutlet weak var userTextField: UITextField!
     
+    @IBOutlet weak var vc_number: UILabel!
     @IBAction func didTapRedButton(_ sender: Any) {
         pushViewController(title: "Red", color: UIColor.red)
     }
@@ -36,9 +37,16 @@ class ColorPickerViewController: UIViewController {
     private func  pushTestController() {
         var vcnumber = userTextField.text
         print("vc_number is",vcnumber)
+        
+        
+        UserDefaults.standard.set(userTextField.text, forKey: "vc_number")
+        
+        vc_number.text = userTextField.text
         let storyboard = UIStoryboard(name: "ChatbotWebview", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ChatbotViewController") as UIViewController
         self.navigationController?.pushViewController(vc, animated: true)
+        let sharedPref = UserDefaults.standard
+        print(sharedPref)
     }
     
 
@@ -126,5 +134,12 @@ class ColorPickerViewController: UIViewController {
         vc.view.backgroundColor = color
         vc.title = title
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    // Storing vc_number permanently, presenting it even if user close the app
+    override func viewDidAppear(_ animated: Bool) {
+        if let x = UserDefaults.standard.object(forKey: "vc_number") as? String {
+            vc_number.text = x
+        }
     }
 }

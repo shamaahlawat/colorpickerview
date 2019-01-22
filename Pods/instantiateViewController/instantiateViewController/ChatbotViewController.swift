@@ -65,6 +65,8 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         ChatbotWebview.stringByEvaluatingJavaScript(from :"window.androidObj.updateFromAndroid(\'psid\',\'"+obj+"\');");
     }
     
+
+    
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
         print("Error occured")
     }
