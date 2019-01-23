@@ -26,10 +26,6 @@ class ColorPickerViewController: UIViewController {
 //      pushloadingViewController()
     }
     
-    @IBAction func didTaploadWebviewButtonPressed(_ sender: UIButton) {
-//        pushwebViewController()
-    }
-    
     @IBAction func didTapTestButton(_ sender: UIButton) {
         pushTestController()
 }
@@ -48,8 +44,6 @@ class ColorPickerViewController: UIViewController {
         let sharedPref = UserDefaults.standard
         print(sharedPref)
     }
-    
-
     
 //    private func  pushTestController() {
 //        let storyboard = UIStoryboard(name: "test", bundle: nil)

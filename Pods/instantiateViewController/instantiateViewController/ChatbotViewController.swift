@@ -54,6 +54,7 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         print(htmlTitle)
     
           injectJavaScriptFunction()
+        
     }
     
     private func injectJavaScriptFunction() {
@@ -64,8 +65,6 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         ChatbotWebview.stringByEvaluatingJavaScript(from: "window.androidObj.updateFromAndroid(\'android\',\'\');");
         ChatbotWebview.stringByEvaluatingJavaScript(from :"window.androidObj.updateFromAndroid(\'psid\',\'"+obj+"\');");
     }
-    
-
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
         print("Error occured")

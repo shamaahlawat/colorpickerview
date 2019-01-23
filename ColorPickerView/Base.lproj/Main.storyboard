@@ -59,15 +59,6 @@
                                     <action selector="didTapFrameworkStoryboardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Wr-n0-qUn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFU-XS-k9e">
-                                <rect key="frame" x="125" y="490" width="126" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.86405296249999997" blue="0.35760978139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Load Web View"/>
-                                <connections>
-                                    <action selector="didTaploadWebviewButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j5b-px-Sxi"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRG-At-vFE">
                                 <rect key="frame" x="127" y="576" width="123" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
