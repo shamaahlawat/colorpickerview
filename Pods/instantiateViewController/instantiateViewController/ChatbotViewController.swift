@@ -61,8 +61,8 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         
         let obj = "{\"psid\": \"ori\"}"
         
-        let newpsid =  "\(getPSID())"
-        print("newpsid will be",newpsid)
+//        let newpsid =  "\(getPSID())"
+//        print("newpsid will be",newpsid)
         let obj1 = "{\"psid\" : \(getPSID()) }"
 //        let str = String(myobj)
         print("obj1 will be",obj1)
@@ -78,9 +78,10 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         textFromWeb(obj: "{\"psid\": \"ori\"}")
         s4()
 //        JSONObject json = new JSONObject();
-          getPSID()
+//          getPSID()
 //        let currentTime = Date().toMillis()
 //        print("current time will be",currentTime)
+        
     }
     
     func textFromWeb (obj:String){
@@ -101,9 +102,18 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         }
         print("Timestamp: \(Timestamp)")
         
-        var rand = String(arc4random() % 9000 + 1000)
+        func getCurrentMillis()-> String {
+            return String(Date().timeIntervalSince1970 * 1000)
+        }
         
-        return rand
+        var currentTime = getCurrentMillis()
+        print("millisec time will be ",currentTime)
+
+        
+        var rand = String(arc4random() % 9000 + 1000)
+//        var time = String (10)
+        
+        return rand + currentTime;
         
 //        return "and-"+s4() + "-" +  s4() + "-"+s4() + "-" + CVtimeStamp;
     }
