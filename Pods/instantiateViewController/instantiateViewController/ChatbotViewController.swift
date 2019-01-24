@@ -54,7 +54,6 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         print(htmlTitle)
     
           injectJavaScriptFunction()
-        
     }
     
     private func injectJavaScriptFunction() {
@@ -62,8 +61,66 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         
         let obj = "{\"psid\": \"ori\"}"
         
+        let newpsid =  "\(getPSID())"
+        print("newpsid will be",newpsid)
+        let obj1 = "{\"psid\" : \(getPSID()) }"
+//        let str = String(myobj)
+        print("obj1 will be",obj1)
+        
         ChatbotWebview.stringByEvaluatingJavaScript(from: "window.androidObj.updateFromAndroid(\'android\',\'\');");
-        ChatbotWebview.stringByEvaluatingJavaScript(from :"window.androidObj.updateFromAndroid(\'psid\',\'"+obj+"\');");
+        ChatbotWebview.stringByEvaluatingJavaScript(from :"window.androidObj.updateFromAndroid(\'psid\',\'"+obj1+"\');");
+        
+//
+//        let dataString = String()
+//        let json = JSONSerialization.jsonObject(with: obj, options: .mutableContainers)
+        
+        //Getting text from webview
+        textFromWeb(obj: "{\"psid\": \"ori\"}")
+        s4()
+//        JSONObject json = new JSONObject();
+          getPSID()
+//        let currentTime = Date().toMillis()
+//        print("current time will be",currentTime)
+    }
+    
+    func textFromWeb (obj:String){
+        print("text from web is ",obj)
+    }
+    
+    func getPSID() -> String {
+        var psid = guid()
+        return "\(psid)"
+        print("psid is",psid)
+    }
+    
+    func guid() -> String {
+//        String timeStamp = new SimpleDateFormat("yyyyMMdd-HHmmss",
+//        Locale.getDefault()).format(new Date());
+        var Timestamp: String {
+            return "\(NSDate())"
+        }
+        print("Timestamp: \(Timestamp)")
+        
+        var rand = String(arc4random() % 9000 + 1000)
+        
+        return rand
+        
+//        return "and-"+s4() + "-" +  s4() + "-"+s4() + "-" + CVtimeStamp;
+    }
+    
+    func s4(){
+//    var d = (Math.floor((1 + Math.random()) * 0x10000));
+//    return Integer.toString(d).substring(1);
+//        let rand = Int(arc4random_uniform(10))
+        
+        var rand = Int(arc4random() % 9000 + 1000)
+//        return rand
+        print(rand)
+        
+        var Timestamp: String {
+            return "\(NSDate())"
+        }
+        print("Timestamp: \(Timestamp)")
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
