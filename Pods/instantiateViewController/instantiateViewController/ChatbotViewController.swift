@@ -59,14 +59,20 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
     private func injectJavaScriptFunction() {
         print("injecting javascript")
         
-        let obj = "{\"psid\": \"ori\"}"
+        let obj = "{\"psid\": \"ori-40\"}"
 
-        let obj1 = "{\"psid\" : \(getPSID()) }"
+        
+        var newpsid = "\(getPSID())"
+        
+        savePSID(psid : "newpsid");
+        
+        let obj1 = "{\"psid\" : \(newpsid) }"
 //        let str = String(myobj)
         print("obj1 will be",obj1)
         
         ChatbotWebview.stringByEvaluatingJavaScript(from: "window.androidObj.updateFromAndroid(\'android\',\'\');");
         ChatbotWebview.stringByEvaluatingJavaScript(from :"window.androidObj.updateFromAndroid(\'psid\',\'"+obj1+"\');");
+        
 //
 //        let dataString = String()
 //        let json = JSONSerialization.jsonObject(with: obj, options: .mutableContainers)
@@ -77,6 +83,12 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
 //        JSONObject json = new JSONObject();
         let uuid = UUID().uuidString
         print("uuid will be ===>>>> ",uuid)
+        
+//        let restoredpsid = UserDefaults.integer(forKey: "vc_number")
+//        var storedVcNumber = UserDefaults.standard.object(forKey: "vc_number")
+//        print("return value will be ==>> ",storedVcNumber)
+        
+
     }
     
     func textFromWeb (obj:String){
@@ -96,7 +108,7 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
         print("Timestamp: \(Timestamp)")
         
         func getCurrentMillis()-> String {
-            return String(Date().timeIntervalSince1970 * 1000)
+            return String(Int(Date().timeIntervalSince1970*1000))
         }
         
         var currentTime = getCurrentMillis()
@@ -104,9 +116,24 @@ class ChatbotViewController: UIViewController, UIWebViewDelegate {
 
         var rand = String(arc4random() % 9000 + 1000)
         let uuid = UUID().uuidString
-
-        return uuid + currentTime;
-   
+        let uuidString = UUID().uuidString.replacingOccurrences(of: "-", with: "")
+//        return (rand + currentTime)
+//        return "1234-56"
+        
+//        return rand + currentTime;
+//        return "\(rand)-\(currentTime)"
+//         return "123"
+         return "23"
+        
+        var storedpsid = UserDefaults.standard.integer(forKey: "psid")
+        print("stored psid will be ==>> ", storedpsid)
+        
+//        UserDefaults.standard.set(newpsid, forKey: "psid")
+    }
+    
+    func savePSID(psid:String) -> String {
+//         UserDefaults.standard.set(psid, forKey: "storedpsid")
+        return ""
     }
     
     func s4(){
